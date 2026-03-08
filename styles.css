@@ -1,0 +1,133 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f9f7f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #b35c7e; /* warm pink-purple */
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #7d5a65;
+  margin-top: 10px;
+}
+
+.gallery {akku-hania-photo.jpg
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.image-container {akku-hania-baby-cartoon.jpg
+  position: relative;
+  max-width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(179, 92, 126, 0.3);
+}
+
+.image-container img {akku-hania-photo.jpg
+  width: 100%;
+  display: block;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  background: #b35c7e;
+  color: white;
+  font-weight: 700;
+  font-family: 'Impact', Arial Black, sans-serif;
+  padding: 5px 12px;
+  border-radius: 5px;
+  user-select: none;
+}
+.label.left {<div class="image-container" style="position: relative; display: inline-block;">
+  <img src="your-couple-image.jpg" alt="Couple embracing" />
+  <div class="label left">HANIA</div>
+  
+  left: 15px;
+  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+}
+
+.label.right {<div class="image-container" style="position: relative; display: inline-block;">
+  <img src="your-couple-image.jpg" alt="Couple embracing" />
+  <div class="label right">AKKU</div>
+</div>
+  right: 15px;
+  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+}
+
+.about {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  font-size: 1.2rem;
+}
+
+.contact {
+  background: #fff0f6;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+  box-shadow: 0 4px 10px rgba(179, 92, 126, 0.15);
+}
+
+.contact h2 {
+  color: #b35c7e;
+  margin-bottom: 15px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 2px solid #b35c7e;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.contact form button {
+  background: #b35c7e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.contact form button:hover {
+  background: #8b435d;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #7d5a65;
+  border-top: 1px solid #b35c7e;
+  padding: 15px 0;
+}
